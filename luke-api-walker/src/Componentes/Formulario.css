@@ -1,0 +1,62 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: whitesmoke;
+	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+label {
+	margin: 10px;
+}
+
+select{
+	font-size: medium;
+	border: solid 3px whitesmoke;
+	border-radius: 5px;
+	background-color: whitesmoke;
+}
+
+button {
+	margin-left: 15px;
+	border: solid 3px whitesmoke;
+	border-radius: 5px;
+	background-color: whitesmoke;
+	width: 150px;
+	height: 25px;
+}
+
+img {
+	width: 500px;
+	height: 500px;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.resultado {
+	padding: 15px;
+	margin: 20px;
+	background-color: cadetblue;
+	margin-top: 20px;
+	color: black;
+	background-color: whitesmoke;
+}
+
+.errores {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: x-large;
+	margin: 15px;
+}
